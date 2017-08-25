@@ -9,7 +9,7 @@ Utilising:
 * Express.js to provide APIs and serverside game logic,
 * Angular to build the frontend/user-interface and interact with APIs
 * Node.js as the actual server for event driven 2-way-comunication 
-* +
+* pluss
 * THREE.js to create and render 3D game enviroments (scenes)
 
 ## First milestone
