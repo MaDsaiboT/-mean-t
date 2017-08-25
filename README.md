@@ -13,14 +13,14 @@ Utilising:
 * THREE.js to create and render 3D game enviroments (scenes)
 
 ## First milestone
-*setup a basic file/folder structure that is easy to understand for   devs of all levels of experience and mostly compliant to   standards/best-practices
-*get all dependencies in order
-*get server-side Typescript running 
-*mock registraion & login functionality in server/api
-*mock registraion & login functionality in client
-*have a nice animation in the canvas so that something actualy moves in the background
-*find someone who wants to take care of my bad spelling
-*use githubs build in features to organise milestones 
+* setup a basic file/folder structure that is easy to understand for   devs of all levels of experience and mostly compliant to   standards/best-practices
+* get all dependencies in order
+* get server-side Typescript running 
+* mock registraion & login functionality in server/api
+* mock registraion & login functionality in client
+* have a nice animation in the canvas so that something actualy moves in the background
+* find someone who wants to take care of my bad spelling
+* use githubs build in features to organise milestones 
 
 
 
