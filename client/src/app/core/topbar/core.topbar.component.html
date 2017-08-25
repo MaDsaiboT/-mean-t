@@ -1,0 +1,10 @@
+<div class="topbar">
+  <nav class="start">
+    <a routerLink="./settings" routerLinkActive="active">settings</a>
+  </nav>
+
+  <nav class="end">
+    <button routerLink="./register"  routerLinkActive="active" [disabled]="!registrationEnabled">register</button>
+    <button routerLink="./login"     routerLinkActive="active">login</button>
+  </nav>
+</div>

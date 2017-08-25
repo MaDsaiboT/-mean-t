@@ -1,0 +1,56 @@
+form {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 60%;
+
+    min-width: 300px;
+    max-width: 700px;
+
+    border: 1px solid lightgrey;
+
+    border-top-left-radius:     5px;
+    border-top-right-radius:    5px;
+    border-bottom-left-radius:  3px;
+    border-bottom-right-radius: 3px;
+
+    padding: 15px;
+
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+h2 {
+    flex: 4;
+
+    border-top-left-radius:     5px;
+    border-top-right-radius:    5px;
+    
+    padding: 5px;
+
+    margin: -16px;
+    margin-bottom: 10px;
+
+    border: 1px solid grey;
+}
+
+div.input-group {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 4;
+    margin-bottom: 10px;
+}
+
+
+.input-group label {
+    display: inline-block;
+    flex: 1.2;
+    text-align: right;
+    padding: 5px;
+}
+
+.input-group input {
+    display: inline-block;
+    flex: 2.8;
+}

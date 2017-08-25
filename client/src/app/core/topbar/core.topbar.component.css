@@ -1,0 +1,51 @@
+div.topbar{
+    display: flex;
+    line-height: 43px;
+    padding: 0 20px;
+    color: rgba(227, 248, 217, 0.67);
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+}
+
+nav.start {
+    align-self: flex-start;
+}
+
+nav.end {
+    align-self: flex-end;
+}
+
+nav>a,
+nav>button{
+    padding: 0px 5px;
+    height: inherit;
+    line-height: inherit;
+    background-color: inherit;
+    border:none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    display: inline-block;
+    cursor: pointer;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+button:disabled{
+    color: rgba(28, 26, 26, 0.90) !important;
+}
+
+button:hover,
+a:hover{
+    background-color:  rgba(33,33,33, 0.5) !important;
+}
+
+button:focus{
+    outline: none;
+}

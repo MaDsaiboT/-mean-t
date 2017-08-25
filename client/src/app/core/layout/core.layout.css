@@ -1,0 +1,36 @@
+.topbar{
+  display: block;
+  height: 43px;
+  width: 100vw;
+  background-color: #333;
+  box-sizing: border-box;
+}
+
+.loadingbar{
+  height: 3px;
+  width: 100vw;
+  background-color: red;
+  box-sizing: border-box;
+}
+
+.mainWraper{
+  display: block;
+  position: absolute;
+  height: calc(100vh - 46px);
+  width: 100vw;
+  background: url('/assets/1x1tansparent.png');
+  z-index: 2;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+.mainWraper>*{
+  pointer-events: auto;
+}
+
+.mainWraper>*:first-child{
+  pointer-events: auto;
+}
+
+.mainWraper>*:last-child{
+  pointer-events: auto;
+}

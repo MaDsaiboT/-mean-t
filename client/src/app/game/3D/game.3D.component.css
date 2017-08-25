@@ -1,0 +1,9 @@
+canvas{
+    z-index: 1;
+    position: absolute;
+    top: 46px;
+    left: 0px;
+    height: calc(100vh - 46px);
+    width: 100vw;
+    background: #666;
+}
