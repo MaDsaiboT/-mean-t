@@ -2,9 +2,11 @@
   "name": "@mean-t/servers",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "tsc -w",
+    "start": "npm run build && node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,10 @@
   },
   "homepage": "https://github.com/MaDsaiboT/mean-plus-three#readme",
   "dependencies": {
-    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.2",
+    "@types/node": "^8.0.25",
+    "@types/express": "^4.0.37"
   }
 }
