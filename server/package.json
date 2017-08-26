@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "tsc",
+    "build": "tsc",
     "start": "npm run build && node dist/index.js"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/MaDsaiboT/mean-plus-three#readme",
   "dependencies": {
+    "express": "^4.15.4"
   },
   "devDependencies": {
     "typescript": "^2.4.2",
