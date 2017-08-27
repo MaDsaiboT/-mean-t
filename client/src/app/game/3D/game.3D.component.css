@@ -5,5 +5,23 @@ canvas{
     left: 0px;
     height: calc(100vh - 46px);
     width: 100vw;
-    background: #666;
+    background: #222222;
+}
+
+p {
+    z-index: 3;
+	padding: 5px;
+	display: block;
+	color: green;
+	font-style: bold;
+	font-family: Console;
+	background: black;
+	position: absolute;
+	top: 50%;
+	left: 5px;
+}
+
+span{
+	display: block;
+	width: auto;
 }

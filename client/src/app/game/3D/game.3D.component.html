@@ -1,1 +1,12 @@
-<canvas (click)="logDebug('test')"></canvas>
+<canvas #canvas></canvas>
+<p *ngIf="gameRuning">
+    <span *ngIf="serviceSettings.getState('showFPS')">
+        FPS: {{fps.toFixed(2)}} / {{targetFPS.toFixed(2)}}
+    </span>
+    <span *ngIf="camera">
+        Cam: x:{{camera.position.x}} 
+             y:{{camera.position.y}} 
+             z:{{camera.position.z}}
+    </span>
+    <span>viewDistance: {{serviceSettings.getState('viewDistance')}}</span>
+</p>
