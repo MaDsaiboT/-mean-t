@@ -1,6 +1,6 @@
 {
-  "name": "@mean-t/client",
-  "version": "0.0.1",
+  "name": "mean-plus-three-client",
+  "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
