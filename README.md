@@ -1,9 +1,10 @@
-# A integreation of THREE.js into the MEAN stack
+# An integreation of THREE.js into the MEAN stack
 
 ## General information
-This project is set up as a learning-by-doing experience for me and others that want to participate.
+This project is set up as a learning-by-doing experience for me and others who want to participate.
 
-The general purpose of mean-pluss-three is to provide a Biolerplate that acts as a basis for the development of 3D browsergames with basic social- and multiplayer features already build in.
+The general purpose of mean-pluss-three is to provide a biolerplate that acts as basis for development of 3D browsergames with basic social- and multiplayer features build in.
+
 Utilising: 
 * MongoDB to store data persistently on the server
 * Express.js to provide APIs and serverside game logic,
