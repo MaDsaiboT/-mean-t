@@ -3,7 +3,7 @@
 ## General information
 This project is set up as a learning-by-doing experience for me and others who want to participate.
 
-The general purpose of mean-pluss-three is to provide a biolerplate that acts as basis for development of 3D browsergames with basic social- and multiplayer features build in.
+The general purpose of mean-pluss-three is to provide a boilerplate that acts as basis for development of 3D browsergames with basic social- and multiplayer features build in.
 
 Utilising: 
 * MongoDB to store data persistently on the server
